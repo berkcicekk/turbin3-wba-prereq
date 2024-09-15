@@ -1,0 +1,22 @@
+{
+  "name": "airdrop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "keygen": "ts-node ./keygen.ts",
+    "airdrop": "ts-node ./airdrop.ts",
+    "transfer": "ts-node ./transfer.ts",
+    "enroll": "ts-node ./enroll.ts"
+  },
+  
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "@types/node": "^22.5.5",
+    "bs58": "^6.0.0",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
